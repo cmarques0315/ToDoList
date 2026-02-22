@@ -16,7 +16,7 @@ import javax.ws.rs.core.Response;
 @Consumes(javax.ws.rs.core.MediaType.APPLICATION_JSON)
 public class TaskData {
 	
-    private static final List<String> tasks = new ArrayList<>();
+    private final List<String> tasks = new ArrayList<>();
 
 
     @GET
