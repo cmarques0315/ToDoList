@@ -1,0 +1,5 @@
+FROM tomcat:10-jdk17
+
+COPY target/ToDo.war /usr/local/tomcat/webapps/
+
+EXPOSE 8080
