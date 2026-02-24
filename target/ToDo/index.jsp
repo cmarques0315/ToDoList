@@ -19,7 +19,7 @@
 
   <h1>To-Do List</h1>
 
-  <input type="text" id="taskInput" placeholder="Enter task!!!!!!!">
+  <input type="text" id="taskInput" placeholder="Enter task!!!">
   <button onclick="addTask()">Add</button>
 
   <hr>
